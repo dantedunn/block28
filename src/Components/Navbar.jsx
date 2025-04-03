@@ -1,8 +1,5 @@
 import { Link } from "react-router"
-import Red from "../pages/Red"
-import Green from "../pages/Green"
-import Blue from "../pages/Blue"
-import App from "../App"
+
 
 
 function Navbar () {
@@ -10,7 +7,7 @@ function Navbar () {
 <nav>
 <ul>
     <li>
-      {/* <Link to="/">Home</Link>   */}
+      <Link to="/">Home</Link>  
     </li>
     <li>
         <Link to="/Red">Red Page</Link>
